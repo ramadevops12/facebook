@@ -1,1 +1,6 @@
-Hello Gitdevops
+Hello devops team
+pipeline {
+  agent any {
+    stages {
+      plan {
+
