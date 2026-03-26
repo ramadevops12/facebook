@@ -1,6 +1,11 @@
-Hello devops team
 pipeline {
   agent any {
-    stages {
-      plan {
+    stages { git clone
+       plan {
+        stage plan {
+          proceed {
+
+            }
+}
+}
 
